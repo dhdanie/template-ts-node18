@@ -1,1 +1,5 @@
-console.log('Hello World');
+export function getOutputString(): string {
+  return 'Hello World';
+}
+
+console.log(getOutputString());
